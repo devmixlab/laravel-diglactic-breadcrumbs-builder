@@ -1,0 +1,14 @@
+# Composer
+/vendor/
+composer.lock
+
+# IDE
+/.idea/
+/.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# PHPUnit (if you add later)
+/.phpunit.result.cache
