@@ -42,6 +42,12 @@ class Breadcrumb
         return $this;
     }
 
+    public function setTitle(string $title): self
+    {
+        $this->title = $title;
+        return $this;
+    }
+
     /**
      * Register this breadcrumb with Diglactic Breadcrumbs.
      * Calls the modify callback, sets parent if available, and pushes the breadcrumb title & route.
